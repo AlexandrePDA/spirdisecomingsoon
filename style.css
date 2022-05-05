@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#8300e9, #fa5e5d);
+}
+
+.home {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.items {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  display: wrap;
+  margin-top: 10rem;
+}
+
+.imageSEO {
+  height: 19rem;
+  margin-left: 2.5rem;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 4rem;
+}
+
+.sentences {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.first-sentence {
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.25rem;
+  padding: 0.8rem;
+}
+
+.p-logo {
+  color: white;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+.linkLogo {
+ margin-top: .5rem;
+}
+
+.logo {
+    margin-top: 1rem;
+  height: 3rem;
+}
+
+a {
+  text-decoration: none;
+  height: 3rem;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  -webkit-transition: all 1s 0s ease-in-out;
+-moz-transition: all 1s 0s ease-in-out;
+-o-transition: all 1s 0s ease-in-out;
+transition: all 1s 0s ease-in-out;
+}
+
+
+
+
+/************* MEDIA QUERIES */
+
+@media screen and (max-width: 1035px) {
+    * {
+        font-size: 1rem;
+        margin: auto;
+    }
+    body {
+        height: 180vh;
+    }
+    .items {
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+      }
+      p, h1, h2 {
+          text-align: center;
+      }
+    h1 {
+        margin: 0;
+    }
+}
+
+
+
+
+
